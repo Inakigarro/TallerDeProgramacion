@@ -6,7 +6,7 @@ namespace TrabajoPractico1
     {
         static void Main(string[] args)
         {
-            int numero = 1;
+            int numero = 5;
            
             if (numero == 1)
             {
