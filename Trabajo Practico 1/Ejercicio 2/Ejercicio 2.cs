@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ejercicio_2
+namespace Trabajo_Practico_1
 {
     class Ejercicio2
     {
