@@ -1,9 +1,9 @@
 ﻿using System;
 
-namespace Ejercicio_3
+namespace EjTrabajo_Practico_1ercicio_3
 {
-    class Program
-    {
+    class Ejercicio3
+    { 
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
