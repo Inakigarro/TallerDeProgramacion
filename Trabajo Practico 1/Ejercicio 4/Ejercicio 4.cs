@@ -15,11 +15,10 @@ namespace Ejercicio_4
                 resultado += num;
                 cantidadNumeros++; 
             }
-            promedio = cantidadNumeros / resultado;
+            promedio = resultado / cantidadNumeros;
             Console.WriteLine("La cantidad de numeros sumados es: " + cantidadNumeros);
             Console.WriteLine("El resultado de la suma es: " + resultado);
             Console.WriteLine("El promedio es: " + promedio);
-
         }
     }
 }
