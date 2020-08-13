@@ -9,7 +9,7 @@ namespace EjTrabajo_Practico_1ercicio_3
             int cantidadNumeros = 0;
             int resultado = 0;
             int promedio;
-            for(int num = 1; num < 50; num++ )
+            for(int num = 1; num <= 50; num++ )
             {
                 resultado += num;
                 cantidadNumeros++;
