@@ -6,10 +6,15 @@ namespace Trabajo_Practico_1
     { 
         static void Main()
         {
-            int cantidadNumeros = 0;
+            int cantidadNumeros = 0;  
             int resultado = 0;
             int promedio;
-            for(int num = 1; num <= 50; num++ )
+            Console.WriteLine("Ingrese el limite inferior");
+            int limiteInferior = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el limite superior");
+            int limiteSuperior = int.Parse(Console.ReadLine());
+
+            for(int num = limiteInferior; num <= limiteSuperior; num++ )
             {
                 resultado += num;
                 cantidadNumeros++;
