@@ -4,11 +4,11 @@ namespace Trabajo_Practico_1
 {
     class Ejercicio2
     {
-        static void Main(string[] args)
+        static void Main()
         {
-
-            string entradaSwitch = Console.ReadLine();
-            int numero = int.Parse(entradaSwitch);
+            //Ingreso por pantalla el numero a controlar.
+            int numero = int.Parse(Console.ReadLine());
+            //Si el numero esta entre 1 y 9 inclusive devuelve una cadena indicando que numero se ingreso.
             switch (numero)
             {
                 case 1:
@@ -38,6 +38,7 @@ namespace Trabajo_Practico_1
                 case 9:
                     Console.WriteLine("NUEVE");
                     break;
+                //Si el numero no esta entre 1 y 9 deuvelve 'Otro'. 
                 default:
                     Console.WriteLine("OTRO");
                     break;
