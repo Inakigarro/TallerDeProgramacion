@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio6.csproj": {
-                "projectPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio6.csproj"
+              "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio 6.csproj": {
+                "projectPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio 6.csproj"
               }
             }
           }
@@ -60,12 +60,12 @@
         }
       }
     },
-    "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio6.csproj": {
+    "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio 6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio6.csproj",
-        "projectName": "Ejercicio6",
-        "projectPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio6.csproj",
+        "projectUniqueName": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio 6.csproj",
+        "projectName": "Ejercicio 6",
+        "projectPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio 6.csproj",
         "packagesPath": "C:\\Users\\Zaky\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\obj\\",
         "projectStyle": "PackageReference",

@@ -3,11 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Ejercicio_7</RootNamespace>
+    <RootNamespace>Ejercicio_9</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Ejercicio6\Ejercicio 6.csproj" />
-  </ItemGroup>
 
 </Project>

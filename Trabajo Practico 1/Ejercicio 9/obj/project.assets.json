@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Ejercicio 6/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Ejercicio 6.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Ejercicio 6.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Ejercicio 6/1.0.0": {
-      "type": "project",
-      "path": "../Ejercicio6/Ejercicio 6.csproj",
-      "msbuildProject": "../Ejercicio6/Ejercicio 6.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Ejercicio 6 >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\Zaky\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio 7\\Ejercicio 7.csproj",
-      "projectName": "Ejercicio 7",
-      "projectPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio 7\\Ejercicio 7.csproj",
+      "projectUniqueName": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio 9\\Ejercicio 9.csproj",
+      "projectName": "Ejercicio 9",
+      "projectPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio 9\\Ejercicio 9.csproj",
       "packagesPath": "C:\\Users\\Zaky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio 7\\obj\\",
+      "outputPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio 9\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zaky\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,11 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio 6.csproj": {
-              "projectPath": "C:\\Users\\Zaky\\Documents\\GitHub\\TallerDeProgramacion\\Trabajo Practico 1\\Ejercicio6\\Ejercicio 6.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
