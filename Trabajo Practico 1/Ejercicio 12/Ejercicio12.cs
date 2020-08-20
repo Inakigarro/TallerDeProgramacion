@@ -5,7 +5,7 @@ namespace Ejercicio_12
     class Ejercicio12
     {
         static int Factorial(int n)
-        {
+        {//Calculo de forma recursiva el factorial de un numero n.
             int x;
             if (n == 0)
             {
