@@ -6,14 +6,13 @@ namespace Ejercicio_8
     { 
         static void Main()
         {
-           
+            //Ingreso por pantalla la cantidad de numeros de la serie de fibonacci que se desean calcular.
             Console.WriteLine("Ingrese la cantidad de numeros que desea calcular");
             int c = int.Parse(Console.ReadLine());
-            int resultado;
+          
             for(int a = 0; a <= c; a++)
             {
-                resultado = Fibonacci(a);
-                Console.WriteLine(resultado);
+                Console.WriteLine("n = " + a + "f(n) = " + Fibonacci(a));
             }
 
         }
