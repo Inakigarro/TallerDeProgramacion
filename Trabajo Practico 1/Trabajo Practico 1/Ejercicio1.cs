@@ -4,11 +4,11 @@ namespace Trabajo_Practico_1
 {
     class Ejercicio1
     {
-        static void Main(string[] args)
+        static void Main()
         {
 
-            string entradaIF = Console.ReadLine();
-            int numero = int.Parse(entradaIF);
+            ;
+            int numero = int.Parse(Console.ReadLine());
             if(numero == 1)
             {
                 Console.WriteLine("Uno");
