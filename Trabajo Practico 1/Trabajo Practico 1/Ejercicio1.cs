@@ -6,9 +6,9 @@ namespace Trabajo_Practico_1
     {
         static void Main()
         {
-
-            ;
+            //Ingreso por pantalla el numero que quiero controlar.
             int numero = int.Parse(Console.ReadLine());
+            //Si el numero esta entre 1 y 9 inclusive, devolvera una cadena indicando que numero se ingreso.
             if(numero == 1)
             {
                 Console.WriteLine("Uno");
@@ -45,6 +45,7 @@ namespace Trabajo_Practico_1
             {
                 Console.WriteLine("Nueve");
             }
+            //Si el numero es mayor a nueve, devuelve 'Otro'.
             else if (numero > 9)
             {
                 Console.WriteLine("Otro");
