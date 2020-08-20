@@ -11,11 +11,12 @@ namespace Ejercicio_8
             int c = int.Parse(Console.ReadLine());
           
             for(int a = 0; a <= c; a++)
-            {
-                Console.WriteLine("n = " + a + "f(n) = " + Fibonacci(a));
+            {//Muestro en pantalla el numero perteneciente a la serie de fibonacci correspondiente al termino solicitado.
+                Console.WriteLine("n = " + a + ", f(n) = " + Fibonacci(a));
             }
 
         }
+        //Calculo recursivamente el termino de la serie de fibonacci correspondiente al argumento.
         static int Fibonacci(int n)
         {
             int x;
