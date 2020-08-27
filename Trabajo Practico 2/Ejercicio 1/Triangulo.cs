@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Ejercicio_1
 {
-    class Triangulo
+    public class Triangulo
     {
         //Los puntos que definen el triangulo.
-        Punto punto1;
-        Punto punto2;
-        Punto punto3;
-        double baseTriangulo = 0;
-        double altura = 0;
+        private Punto punto1;
+        private Punto punto2;
+        private Punto punto3;
+        private double baseTriangulo = 0;
+        private double altura = 0;
 
         //Constructor del triangulo.
         public Triangulo(Punto p1, Punto p2, Punto p3)

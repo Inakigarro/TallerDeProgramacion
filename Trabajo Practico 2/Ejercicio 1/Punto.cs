@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ejercicio_1
 {
-    class Punto
+    public class Punto
     {
         //Las coordeandas del punto x e y.
         private double iX;
