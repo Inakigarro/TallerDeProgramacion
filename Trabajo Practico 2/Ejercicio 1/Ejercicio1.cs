@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 namespace Ejercicio_1
 {
-    class Program
+    class Ejercicio1
     {
         private static void MenuPunto()
         {
