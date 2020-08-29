@@ -6,5 +6,8 @@ namespace Ejercicio_2
 {
     class Banca
     {
+        Cuenta cuentaEnPesos;
+        Cuenta cuentaEnDolares;
+
     }
 }

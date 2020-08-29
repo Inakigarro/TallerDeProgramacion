@@ -23,7 +23,5 @@ namespace Ejercicio_2
         public string GetCodigoISO() { return iCodigoISO; }
         public string GetNombre() { return iNombre; }
         public string GetSimbolo() { return iSimbolo; }
-
-
     }
 }
