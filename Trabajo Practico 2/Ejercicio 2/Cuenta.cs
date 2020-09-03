@@ -27,7 +27,7 @@ namespace Ejercicio_2
         public double GetSaldo() { return iSaldo; }
 
         //Metodos de la clase.
-        public void AcreditarSalgo(double pSaldo)
+        public void AcreditarSaldo(double pSaldo)
         {
             iSaldo += pSaldo;
         }

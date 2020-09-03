@@ -7,30 +7,44 @@ namespace Ejercicio_2
     class Cliente
     {
         //Atributos de un cliente.
-        private string nombre;
-        private string apellido;
-        private string dni;
+        private string iNombre;
+        private string iApellido;
+        private string iDni;
 
         //Constructor de un cliente.
-        public Cliente(string iNombre, string iApellido, string iDni)
+        public Cliente(string pNombre, string pApellido, string pDni)
         {
-            nombre = iNombre;
-            apellido = iApellido;
-            dni = iDni;
+            iNombre = pNombre;
+            iApellido = pApellido;
+            iDni = pDni;
         }
+        //setters de los atributos
+        public void SetNombre(string pNombre)
+        {
+            iNombre = pNombre;
+        }
+        public void SetApellido(string pApellido)
+        {
+            iApellido = pApellido;
+        }
+        public void SetDni(string pDni)
+        {
+            iDni = pDni;
+        }
+            
 
         //Getters de los atributos.
         public string GetNombre()
         {
-            return nombre;
+            return iNombre;
         }
         public string GetApellido()
         {
-            return apellido;
+            return iApellido;
         }
         public string GetDni()
         {
-            return dni;
+            return iDni;
         } 
     }
 }

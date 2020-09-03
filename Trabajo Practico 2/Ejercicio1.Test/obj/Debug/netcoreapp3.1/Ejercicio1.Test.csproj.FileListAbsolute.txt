@@ -1,0 +1,4 @@
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 2\Ejercicio1.Test\obj\Debug\netcoreapp3.1\Ejercicio1.Test.csprojAssemblyReference.cache
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 2\Ejercicio1.Test\obj\Debug\netcoreapp3.1\Ejercicio1.Test.AssemblyInfoInputs.cache
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 2\Ejercicio1.Test\obj\Debug\netcoreapp3.1\Ejercicio1.Test.AssemblyInfo.cs
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 2\Ejercicio1.Test\obj\Debug\netcoreapp3.1\Ejercicio1.Test.csproj.CoreCompileInputs.cache

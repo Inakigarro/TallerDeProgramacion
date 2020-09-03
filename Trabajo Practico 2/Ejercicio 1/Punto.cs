@@ -5,36 +5,28 @@ using System.Text;
 
 namespace Ejercicio_1
 {
-    public class Punto
+    public struct Punto
     {
-        //Las coordeandas del punto x e y.
         private double iX;
         private double iY;
-
-        //El constructor crea un nuevo punto con las coordenadas que se le pase como argumento.
         public Punto(double pX, double pY)
         {
-            iX = pX;
-            iY = pY;
+            this.iX = pX;
+            this.iY = pY;
         }
-
-        //Devuelve la coordenada en x
-        public double GetX()
+        public double X 
         {
-            return iX;
+            set { this.iX = value; }
+            get { return this.iX; }
         }
-
-        //Devuelve la coordenada en y
-        public double GetY()
+        public double Y
         {
-            return iY;
+            set { this.iY = value; }
+            get { return this.iY; }
         }
-
-        //Calcula la distancia al punto pasado como parametro.
-        public double CalcularDistanciaDesde(Punto p)
+        public double Distancia(Punto p)
         {
-            double distancia = 0;
-            distancia = Math.Sqrt(Math.Pow((p.GetX() - iX), 2) + Math.Pow((p.GetY() - iY), 2));
+            double distancia = Math.Sqrt(Math.Pow((p.X - this.X), 2) + Math.Pow((p.Y - this.Y), 2));
             return distancia;
         }
     }

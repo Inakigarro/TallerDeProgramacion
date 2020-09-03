@@ -4,45 +4,34 @@ using System.Text;
 
 namespace Ejercicio_1
 {
-    public class Circulo
+    public struct Circulo
     {
-        //Atributos de un circulo.
-        private double radio;
-        private Punto centro;
+        private Punto iCentro;
+        private double iRadio;
 
-        //Constructor del circulo.
-        public Circulo(Punto p, double r)
+        public Circulo(Punto pCentro, double pRadio)
         {
-            centro = p;
-            radio = r;
+            iCentro = pCentro;
+            iRadio = pRadio;
+        }
+        public Circulo(double pX, double pY, double pRadio)
+        {
+            Punto vPunto = new Punto(pX, pY);
+            iCentro = vPunto;
+            iRadio = pRadio;
         }
 
-        //Devuelve el radio del circulo.
-        public double GetRadio()
+        public Punto Centro { get { return iCentro; } }
+        public double Radio { get { return iRadio; } }
+        public double Area()
         {
-            return radio;
+            double vArea = Math.Pow(Math.PI * iRadio, 2);
+            return vArea;
         }
-
-        //Devuelve el punto central del circulo.
-        public Punto GetCentro()
+        public double Perimetro()
         {
-            return centro;
+            double vPerimetro = 2 * Math.PI * iRadio;
+            return vPerimetro;
         }
-
-        //Metodo que calcula el area del circulo.
-        public double CalcularAreaCirculo()
-        {
-            double area = Math.PI * Math.Pow(radio, 2);
-            return area;
-        }
-        
-
-        //Metodo que calcula el perimetro de un circulo.
-        public double CalcularPerimetroCirculo()
-        {
-            double perimetro = 2 * Math.PI * radio;
-            return perimetro;
-        }
-
     }
 }
