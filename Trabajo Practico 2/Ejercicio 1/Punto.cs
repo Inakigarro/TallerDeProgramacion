@@ -24,10 +24,14 @@ namespace Ejercicio_1
             set { this.iY = value; }
             get { return this.iY; }
         }
-        public double Distancia(Punto p)
+        public double Distancia(double pX, double pY)
         {
-            double distancia = Math.Sqrt(Math.Pow((p.X - this.X), 2) + Math.Pow((p.Y - this.Y), 2));
-            return distancia;
+             
+            return Math.Sqrt(Math.Pow((pX - this.X), 2) + Math.Pow((pY - this.Y), 2)); ;
+        }
+        public double Distancia(Punto pPunto)
+        {
+            return Math.Sqrt(Math.Pow((pPunto.X - this.X), 2) + Math.Pow((pPunto.Y - this.Y), 2));
         }
     }
 }

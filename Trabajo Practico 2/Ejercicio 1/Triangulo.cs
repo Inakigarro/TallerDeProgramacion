@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ejercicio_1
 {
-    public struct Triangulo
+    public struct Triangulo 
     {
         private Punto iPunto1;
         private Punto iPunto2;
