@@ -7,21 +7,21 @@ namespace Ejercicio_2
     class Moneda
     {
         //Atributos de la clase.
-        private string iCodigoISO;
-        private string iNombre;
-        private string iSimbolo;
+        private string aCodigoISO;
+        private string aNombre;
+        private string aSimbolo;
 
         //Constructor de la clase.
         public Moneda(string pCodigoISO, string pNombre, string pSimbolo)
         {
-            iCodigoISO = pCodigoISO;
-            iNombre = pNombre;
-            iSimbolo = pSimbolo;
+            aCodigoISO = pCodigoISO;
+            aNombre = pNombre;
+            aSimbolo = pSimbolo;
         }
 
         //Getters de la clase.
-        public string GetCodigoISO() { return iCodigoISO; }
-        public string GetNombre() { return iNombre; }
-        public string GetSimbolo() { return iSimbolo; }
+        public string GetCodigoISO() { return aCodigoISO; }
+        public string GetNombre() { return aNombre; }
+        public string GetSimbolo() { return aSimbolo; }
     }
 }

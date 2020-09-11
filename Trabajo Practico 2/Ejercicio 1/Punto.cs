@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ejercicio_1
 {
-    public struct Punto
+    public class Punto
     {
         private double iX;
         private double iY;
@@ -14,24 +14,11 @@ namespace Ejercicio_1
             this.iX = pX;
             this.iY = pY;
         }
-        public double X 
+        public double X { get { return this.iX; } }
+        public double Y { get { return this.iY; } }
+        public double CalcularDistanciaDesde(Punto pPuntoFinal)
         {
-            set { this.iX = value; }
-            get { return this.iX; }
-        }
-        public double Y
-        {
-            set { this.iY = value; }
-            get { return this.iY; }
-        }
-        public double Distancia(double pX, double pY)
-        {
-             
-            return Math.Sqrt(Math.Pow((pX - this.X), 2) + Math.Pow((pY - this.Y), 2)); ;
-        }
-        public double Distancia(Punto pPunto)
-        {
-            return Math.Sqrt(Math.Pow((pPunto.X - this.X), 2) + Math.Pow((pPunto.Y - this.Y), 2));
+            return Math.Pow((pPuntoFinal.X - iX), 2) + Math.Pow((pPuntoFinal.Y - iY), 2);
         }
     }
 }

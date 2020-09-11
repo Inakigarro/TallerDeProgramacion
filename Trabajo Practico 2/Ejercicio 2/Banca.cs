@@ -9,31 +9,21 @@ namespace Ejercicio_2
         //Atributos de la Clase.
         private Cuenta cuentaEnPesos;
         private Cuenta cuentaEnDolares;
-        private Cliente titular;
+        private string nombreApellidoTitular;
+        private string dniTitular;
         
         //Constructor de la clase.
-        public Banca(Cliente pCliente)
+        public Banca(string pNombreApellidoTitular, string pDniTitular)
         {
-            Moneda pMonedaPeso = new Moneda("PESO", "Peso Argentino" , "ARG");
-            Moneda pMonedaDolar = new Moneda("Dolar", "Dolar Estadounidense", "USD");
-            cuentaEnPesos = new Cuenta(pMonedaPeso);
-            cuentaEnDolares = new Cuenta(pMonedaDolar);
-            titular = pCliente;
+            cuentaEnPesos = new Cuenta("ARS", "Peso Argentino", "$");
+            cuentaEnDolares = new Cuenta("USD", "Dolar Estadounidense", "U$D");
+            nombreApellidoTitular = pNombreApellidoTitular;
+            dniTitular = pDniTitular;
         }
 
         //Getters de la clase.
-        public Cliente GetTitular()
-        {
-            Cliente iCliente = titular;
-            return iCliente;
-        }
-
-        public string GetNumeroBanca()
-        {
-            string iNumeroBanca = titular.GetDni();
-            return iNumeroBanca;
-        }
-
+        public string GetTitular() { return nombreApellidoTitular; }
+        public string GetDniTitular() { return dniTitular; }
         public Cuenta GetCuentaEnPesos() { return cuentaEnPesos; }
         public Cuenta GetCuentaEnDolares() { return cuentaEnDolares; }
     }

@@ -10,28 +10,28 @@ namespace Ejercicio_2
         private Moneda iMoneda;
         private double iSaldo;
 
-        //Constructores de la clase.
-        public Cuenta(Moneda pMoneda)
+        //Constructor sin saldo inicial.
+        public Cuenta(string pCodigoISOMoneda, string pNombreMoneda, string pSimboloMoneda)
         {
-            iMoneda = pMoneda;
+            iMoneda = new Moneda(pCodigoISOMoneda, pNombreMoneda, pSimboloMoneda);
             iSaldo = 0;
         }
-        public Cuenta(Moneda pMoneda, double pSaldo)
+
+        //Constructor con saldo inicial.
+        public Cuenta(string pCodigoISOMoneda, string pNombreMoneda, string pSimboloMoneda, double pSaldo)
         {
-            iMoneda = pMoneda;
+            iMoneda = new Moneda(pCodigoISOMoneda, pNombreMoneda, pSimboloMoneda);
             iSaldo = pSaldo;
         }
 
         //Getters de la clase.
-        public Moneda GetMoneda() { return iMoneda; }
         public double GetSaldo() { return iSaldo; }
+        public string GetMoneda() { return iMoneda.GetCodigoISO(); }
 
-        //Metodos de la clase.
-        public void AcreditarSaldo(double pSaldo)
-        {
-            iSaldo += pSaldo;
-        }
+        //Acredita el saldo de entrada añadiendo al valor actual el ingresado como parametro.
+        public void AcreditarSaldo(double pSaldo) { iSaldo += pSaldo; }
 
+        //Debita el saldo de entrada solo si hay saldo suficiente en la cuenta.
         public bool DebitarSaldo(double pSaldo)
         {
             if(iSaldo >= pSaldo)

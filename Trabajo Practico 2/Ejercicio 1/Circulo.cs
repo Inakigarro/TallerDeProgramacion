@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ejercicio_1
 {
-    public struct Circulo
+    public class Circulo
     {
         private Punto iCentro;
         private double iRadio;
@@ -23,15 +23,7 @@ namespace Ejercicio_1
 
         public Punto Centro { get { return iCentro; } }
         public double Radio { get { return iRadio; } }
-        public double Area()
-        {
-            double vArea = Math.Pow(Math.PI * iRadio, 2);
-            return vArea;
-        }
-        public double Perimetro()
-        {
-            double vPerimetro = 2 * Math.PI * iRadio;
-            return vPerimetro;
-        }
+        public double CalcularAreaCirculo() {  return Math.Pow(Math.PI * iRadio, 2); }
+        public double CalcularPerimetroCirculo() { return 2 * Math.PI * iRadio; }
     }
 }
