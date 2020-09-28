@@ -13,9 +13,9 @@ namespace Ejercicio_3
         public int GetVidas { get { return partida.Vidas; } }
         public string GetDificultad { get { return partida.Dificultad; } }
 
-        public void CrearPartida(string pDificultad)
+        public void CrearPartida(string pDificultad, string pNombre)
         {
-            partida = new Partida(pDificultad);
+            partida = new Partida(pDificultad, pNombre);
             SetResultado("Iniciada");
         }
         public void GuardarPartida()
@@ -36,7 +36,7 @@ namespace Ejercicio_3
                 }
             }
         }
-        public void GetLetrasIngresadas()
+        public void MostrarLetrasIngresadas()
         {
             for (int i = 0; i < partida.LetrasIngresadas.Length; i++)
             {
@@ -46,7 +46,7 @@ namespace Ejercicio_3
                 }
             }
         }
-        public void GetInfoPartida()
+        public void MostrarInfoPartida()
         {
             //Pantalla de juego mientras estado de partida es 'Iniciada'
             if (partida.Resultado == "Iniciada")
@@ -57,30 +57,32 @@ namespace Ejercicio_3
                 MostrarPalabraFormada();
                 Console.WriteLine("");
                 Console.Write("Letras Ingresadas: ");
-                GetLetrasIngresadas();
+                MostrarLetrasIngresadas();
             }
             //Pantalla de juego cuando estado de partida cambia a 'Victoria'
             else if (partida.Resultado == "Victoria")
             {
                 Console.Clear();
                 Console.WriteLine(" ----- VICTORIA ----- ");
-                Console.WriteLine("Partida iniciada: " + partida.FechaInicio);
+                //Console.WriteLine("Partida iniciada: " + partida.FechaInicio);
                 Console.WriteLine("");
+                Console.WriteLine("Nombre: " + partida.Nombre);
                 Console.WriteLine("Dificultad: " + partida.Dificultad);
                 Console.WriteLine("Vidas restantes: " + partida.Vidas);
                 Console.WriteLine("La palabra era: " + new string(GetPalabraFormada));
                 Console.Write("Letras usadas: " );
-                GetLetrasIngresadas();
+                MostrarLetrasIngresadas();
                 Console.WriteLine("");
                 Console.WriteLine("");
-                Console.WriteLine("Partida finalizada: " + partida.FechaFin);
+                Console.WriteLine("Partida finalizada en: " + partida.Duracion.Seconds + " segundos");
+                //Console.WriteLine("Partida finalizada: " + partida.FechaFin);
             }
             //Pantalla de juego cuando estadode partida cambia a 'Derrota'
             else if(partida.Resultado == "Derrota")
             {
                 Console.Clear();
                 Console.WriteLine(" ----- DERROTA ----- ");
-                Console.WriteLine("Partida iniciada: " + partida.FechaInicio);
+                //Console.WriteLine("Partida iniciada: " + partida.FechaInicio);
                 Console.WriteLine("");
                 Console.WriteLine("Dificultad: " + partida.Dificultad);
                 Console.WriteLine("Vidas restantes: " + partida.Vidas);
@@ -89,20 +91,17 @@ namespace Ejercicio_3
                 MostrarPalabraFormada();
                 Console.WriteLine("");
                 Console.Write("Letras usadas: ");
-                GetLetrasIngresadas();
+                MostrarLetrasIngresadas();
                 Console.WriteLine("");
                 Console.WriteLine("");
-                Console.WriteLine("Partida finalizada: " + partida.FechaFin);
+                Console.WriteLine("Partida finalizada en: " + partida.Duracion.Seconds + " segundos");
+                //Console.WriteLine("Partida finalizada: " + partida.FechaFin);
             }
-
-
         }
-
         public void IngresarLetra(char pLetra)
         {
             partida.InsertarLetra(pLetra);
         }
-
         public void SetResultado(string pResultado)
         { 
             partida.Resultado = pResultado;
@@ -114,7 +113,7 @@ namespace Ejercicio_3
             while (GetPalabraElegida != new string(GetPalabraFormada) && GetVidas != 0)
             {
                 Console.Clear();
-                GetInfoPartida();
+                MostrarInfoPartida();
                 Console.WriteLine("");
                 Console.Write("Ingrese una letra: ");
                 char vLetra = Convert.ToChar(Console.ReadLine());
@@ -128,7 +127,7 @@ namespace Ejercicio_3
             {
                 SetResultado("Victoria");
                 GuardarPartida();
-                GetInfoPartida();
+                MostrarInfoPartida();
                 Console.ReadKey();
 
             }
@@ -137,7 +136,7 @@ namespace Ejercicio_3
             {
                 SetResultado("Derrota");
                 GuardarPartida();
-                GetInfoPartida();
+                MostrarInfoPartida();
                 Console.ReadKey();
             }
         }
@@ -156,7 +155,7 @@ namespace Ejercicio_3
                     Console.WriteLine("Vidas restantes: " + partida.Vidas);
                     Console.WriteLine("La palabra era: " + partida.PalabraElegida);
                     Console.Write("Letras usadas: ");
-                    GetLetrasIngresadas();
+                    MostrarLetrasIngresadas();
                     Console.WriteLine("");
                     Console.WriteLine("");
                     Console.WriteLine("Partida finalizada: " + partida.FechaFin);

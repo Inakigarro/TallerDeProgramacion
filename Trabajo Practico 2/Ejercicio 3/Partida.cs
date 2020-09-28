@@ -5,8 +5,10 @@ using System.Text;
 
 namespace Ejercicio_3
 {
+    public enum Dificultad { Facil = 15, Normal = 10, Dificil = 5 };
     class Partida
     {
+        private string nombreUsuario;
         private DateTime fechaYHoraInicio;
         private DateTime fechaYHoraFin;
         private int vidas;
@@ -15,20 +17,23 @@ namespace Ejercicio_3
         private char[] letrasIngresadas;
         private char[] palabraFormada;
         private string resultado;
-        private RepositorioPalabras rPalabras = new RepositorioPalabras();
-        public Partida(string pDificultad)
+        private ContenedorPalabras rPalabras = new ContenedorPalabras();
+        public Partida(int pDificultad, string pNombre)
         {
-            dificultad = pDificultad;
+            nombreUsuario = pNombre;
             switch (pDificultad)
             {
-                case "Facil":
-                    vidas = 15;
+                case 1:
+                    dificultad = Convert.ToString(Dificultad.Facil);
+                    vidas = (int)Dificultad.Facil;
                     break;
-                case "Normal":
-                    vidas = 10;
+                case 2:
+                    dificultad = Convert.ToString(Dificultad.Normal);
+                    vidas = (int)Dificultad.Normal;
                     break;
-                case "Dificil":
-                    vidas = 5;
+                case 3:
+                    dificultad = Convert.ToString(Dificultad.Dificil);
+                    vidas = (int)Dificultad.Dificil;
                     break;
             }
             palabraElegida = rPalabras.ElegirPalabra();
@@ -36,17 +41,19 @@ namespace Ejercicio_3
             letrasIngresadas = new char[30];
             fechaYHoraInicio = DateTime.Now;
         }
-        public int Vidas { get { return vidas; } }
-        public string Dificultad { get { return dificultad; } }
-        public string PalabraElegida { get { return palabraElegida; } }
-        public char[] PalabraFormada { get { return palabraFormada; } }
-        public char[] LetrasIngresadas { get { return letrasIngresadas; } }
-        public DateTime FechaInicio { get { return fechaYHoraInicio; } }
-        public DateTime FechaFin 
+        public string GetNombre { get { return nombreUsuario; } }
+        public int GetVidas { get { return vidas; } }
+        public string GetDificultad { get { return dificultad; } }
+        public string GetPalabraElegida { get { return palabraElegida; } }
+        public char[] GetPalabraFormada { get { return palabraFormada; } }
+        public char[] GetLetrasIngresadas { get { return letrasIngresadas; } }
+        public DateTime GetFechaInicio { get { return fechaYHoraInicio; } }
+        public DateTime GetFechaFin 
         { 
             get { return fechaYHoraFin; } 
             set { fechaYHoraFin = value; }
         }
+        public TimeSpan GetDuracion { get { return this.GetFechaFin - this.GetFechaInicio; } }
         public string Resultado
         {
             get { return resultado; }

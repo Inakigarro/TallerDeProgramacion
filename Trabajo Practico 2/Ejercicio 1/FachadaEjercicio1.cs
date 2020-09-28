@@ -42,23 +42,23 @@ namespace Ejercicio_1
         {
             Punto centro = new Punto(pCentroX, pCentroY);
             Circulo circulo = new Circulo(centro, pRadio);
-            return circulo.CalcularAreaCirculo();
+            return circulo.CalcularAreaCirculo;
         }
         public double CalcularAreaDeUnCirculo(Punto pCentro, double pRadio)
         {
             Circulo circulo = new Circulo(pCentro, pRadio);
-            return circulo.CalcularAreaCirculo();
+            return circulo.CalcularAreaCirculo;
         }
         public double CalcularPerimetroCirculo(double pCentroX, double pCentroY, double pRadio)
         {
             Punto centro = new Punto(pCentroX, pCentroY);
             Circulo circulo = new Circulo(centro, pRadio);
-            return circulo.CalcularPerimetroCirculo();
+            return circulo.CalcularPerimetroCirculo;
         }
         public double CalcularPerimetroCirculo(Punto pCentro, double pRadio)
         {
             Circulo circulo = new Circulo(pCentro, pRadio);
-            return circulo.CalcularPerimetroCirculo();
+            return circulo.CalcularPerimetroCirculo;
         }
     }
 }

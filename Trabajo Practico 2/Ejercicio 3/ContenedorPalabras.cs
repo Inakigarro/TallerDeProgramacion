@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace Ejercicio_3
 {
-    class RepositorioPalabras
+    class ContenedorPalabras
     {
         string[] repositorioPalabras =  {"mueble", "cama", "computadora", "colonia", "teclado",
                                          "lampara", "cocina", "camioneta", "pileta", "pelota",

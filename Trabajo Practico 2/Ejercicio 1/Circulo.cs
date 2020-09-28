@@ -23,7 +23,7 @@ namespace Ejercicio_1
 
         public Punto Centro { get { return iCentro; } }
         public double Radio { get { return iRadio; } }
-        public double CalcularAreaCirculo() {  return Math.Pow(Math.PI * iRadio, 2); }
-        public double CalcularPerimetroCirculo() { return 2 * Math.PI * iRadio; }
+        public double CalcularAreaCirculo { get { return Math.PI * Math.Pow(iRadio, 2); } }
+        public double CalcularPerimetroCirculo { get { return 2 * Math.PI * iRadio; } }
     }
 }

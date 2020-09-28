@@ -36,6 +36,8 @@ namespace Ejercicio_3
         public void MenuPartida()
         {
             Console.Clear();
+            Console.Write("Ingrese su nombre: ");
+            var vNombre = Console.ReadLine();
             Console.WriteLine("Elija el nivel de dificultad con el que quiere jugar: ");
             Console.WriteLine("");
             Console.WriteLine("1 - Facil.");
@@ -50,19 +52,19 @@ namespace Ejercicio_3
                 {
                     case '1':
                         Console.Clear();
-                        fachada.CrearPartida("Facil");
+                        fachada.CrearPartida("Facil", vNombre);
                         fachada.JugarPartida();
                         MenuPrincipal();
                         break;
                     case '2':
                         Console.Clear();
-                        fachada.CrearPartida("Normal");
+                        fachada.CrearPartida("Normal", vNombre);
                         fachada.JugarPartida();
                         MenuPrincipal();
                         break;
                     case '3':
                         Console.Clear();
-                        fachada.CrearPartida("Dificil");
+                        fachada.CrearPartida("Dificil", vNombre);
                         fachada.JugarPartida();
                         MenuPrincipal();
                         break;
