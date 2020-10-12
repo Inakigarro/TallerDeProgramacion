@@ -901,6 +901,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Ejercicio 2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ejercicio 2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ejercicio 2.dll": {}
+        }
       }
     }
   },
@@ -3493,10 +3503,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Ejercicio 2/1.0.0": {
+      "type": "project",
+      "path": "../Ejercicio 2/Ejercicio 2.csproj",
+      "msbuildProject": "../Ejercicio 2/Ejercicio 2.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Ejercicio 2 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
@@ -3528,7 +3544,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\GitHub\\TallerDeProgramacion\\Trabajo Practico 2\\Ejercicio 2\\Ejercicio 2.csproj": {
+              "projectPath": "E:\\GitHub\\TallerDeProgramacion\\Trabajo Practico 2\\Ejercicio 2\\Ejercicio 2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
