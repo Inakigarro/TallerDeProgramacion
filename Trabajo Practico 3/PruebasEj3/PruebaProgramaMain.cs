@@ -14,15 +14,14 @@ namespace PruebasEj3
         {
             //Inicializacion del objeto de prueba.
             var facahda = new FachadaEj3();
-            facahda.CargarSala(TipoSala.Consulta);
-            facahda.CargarSala(TipoSala.Urgencias);
+            facahda.CargarSalas();
 
             for(int i = 0; i < 20; i++)
             {
                 facahda.aListaPacientes.Add(new Paciente("nombre " + Convert.ToString(i), Convert.ToString(i), DateTime.Today, new Random().Next(1, 6)));
             }
             //Prueba del proceso de Carga aleatoria de objetos.
-            facahda.CargaAleatoriaTurnos(facahda.aListaPacientes);
+            facahda.CargaAleatoriaTurnos();
             var sala1 = facahda.aHospital.GetListaSalas.ElementAt(0);
             var sala2 = facahda.aHospital.GetListaSalas.ElementAt(1);
             //Verificacion del resultado.
