@@ -1,0 +1,13 @@
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.exe
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.deps.json
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.runtimeconfig.json
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.runtimeconfig.dev.json
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.dll
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.pdb
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.csprojAssemblyReference.cache
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.AssemblyInfoInputs.cache
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.AssemblyInfo.cs
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.csproj.CoreCompileInputs.cache
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.dll
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.pdb
+C:\Users\Zaky\Documents\GitHub\TallerDeProgramacion\Trabajo Practico 1\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.genruntimeconfig.cache
