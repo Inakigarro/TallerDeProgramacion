@@ -1,0 +1,13 @@
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.csprojAssemblyReference.cache
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.AssemblyInfoInputs.cache
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.AssemblyInfo.cs
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.csproj.CoreCompileInputs.cache
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.exe
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.deps.json
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.runtimeconfig.json
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.runtimeconfig.dev.json
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.dll
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\bin\Debug\netcoreapp3.1\Ejercicio 3.pdb
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.dll
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.pdb
+E:\GitHub\TallerDeProgramacion\Trabajo Practico 3\Ejercicio 3\obj\Debug\netcoreapp3.1\Ejercicio 3.genruntimeconfig.cache
