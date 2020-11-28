@@ -1,0 +1,15 @@
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\bin\Debug\Ejercicio 2.exe.config
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\bin\Debug\Ejercicio 2.exe
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\bin\Debug\Ejercicio 2.pdb
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\bin\Debug\EntityFramework.dll
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\bin\Debug\EntityFramework.xml
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\obj\Debug\Ejercicio 2.csprojAssemblyReference.cache
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\obj\Debug\Ejercicio_2.VAgregarCliente.resources
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\obj\Debug\Ejercicio_2.Properties.Resources.resources
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.GenerateResource.cache
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.CoreCompileInputs.cache
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.CopyComplete
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\obj\Debug\Ejercicio 2.exe
+C:\Users\Zaky\source\repos\Trabajo Practico 5\Ejercicio 2\obj\Debug\Ejercicio 2.pdb
